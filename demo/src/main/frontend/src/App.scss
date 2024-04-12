@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'SokchoBadaDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaDotum.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SokchoBadaDotum';
+}
+
+.rbc-date-cell{
+    .rbc-button-link{
+        font-size: 15px;
+        background-color: rgb(230, 207, 207);
+        border-radius: 20px;
+        padding: 5px;
+    }
+}
+
+
+
+
+.rbc-calendar{
+    .rbc-toolbar{
+        .rbc-btn-group{
+           button{
+            font-size: 20px;
+           } 
+        }
+        .rbc-toolbar-label{
+            font-size: 36px;
+        }
+    }
+    .rbc-month-view{
+        .rbc-row{} 
+        .rbc-month-header{
+            font-size: 20px;
+        }
+    }
+}
